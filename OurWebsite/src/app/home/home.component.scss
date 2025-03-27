@@ -1,0 +1,49 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .welcome-section {
+    margin-top: 50px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+  
