@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { StartComponent } from "./start/start.component";
+import { HomeComponent } from "./home/home.component";
+import { SetupComponent } from './setup/setup.component';
 export const routes: Routes = [
-  { path: '', component: HomeComponent }, // Default route to the HomeComponent
-  { path: '', component: NavbarComponent } 
+  { path: 'start', component: StartComponent},
+  { path: 'home', component: HomeComponent},
+  { path: 'setup', component: SetupComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
-
-
-

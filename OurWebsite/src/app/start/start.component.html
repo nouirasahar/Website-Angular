@@ -1,0 +1,37 @@
+<div class="home-container">
+  <div class="selection-section">
+    <h2>🚀 Build Your Tech Stack</h2>
+
+    <div class="selection-box">
+      <label for="frontend">Choose a Frontend Technology</label>
+      <select id="frontend">
+        <option value="" disabled selected hidden>Select element</option>
+        <option>React</option>
+        <option>Angular</option>
+        <option>Vue</option>
+      </select>
+    </div>
+
+    <div class="selection-box">
+      <label for="backend">Choose a Backend Technology</label>
+      <select id="backend">
+        <option value="" disabled selected hidden>Select element</option>
+        <option>Node.js</option>
+        <option>Django</option>
+        <option>Spring Boot</option>
+      </select>
+    </div>
+
+    <div class="selection-box">
+      <label for="database">Choose a Database Technology</label>
+      <select id="database">
+        <option value="" disabled selected hidden>Select element</option>
+        <option>MySQL</option>
+        <option>PostgreSQL</option>
+        <option>MongoDB</option>
+      </select>
+    </div>
+
+    <button class="start-button" (click)="onStartBuilding()">Start Building</button>
+  </div>
+</div>

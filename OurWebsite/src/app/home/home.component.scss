@@ -1,49 +1,51 @@
 .home-container {
-    text-align: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #070121;
+
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-top: 10px;
+
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 75, 43, 0.8);
   }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
-  
-  .welcome-section {
-    margin-top: 50px;
-  }
-  
-  .welcome-section h1 {
-    font-size: 3rem;
-    color: #4CAF50;
-  }
-  
-  .welcome-section p {
-    font-size: 1.2rem;
-    margin: 20px 0;
-  }
-  
-  .cta-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .cta-button:hover {
-    background-color: #45a049;
-  }
-  
+}
+
