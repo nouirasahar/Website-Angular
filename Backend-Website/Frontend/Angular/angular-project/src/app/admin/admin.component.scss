@@ -1,0 +1,106 @@
+ /* General Styling */ 
+body { 
+margin: 0; 
+padding: 0; 
+background: linear-gradient(135deg, #e8e8e8, #f4f4f4); /* Light gray gradient */ 
+font-family: 'Arial', sans-serif; 
+} 
+.admin-dashboard { 
+background-color: #ffffff; /* White background for the dashboard */ 
+padding: 20px; 
+border-radius: 12px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */ 
+margin: 20px; 
+max-width: 80%; 
+margin-left: auto; 
+margin-right: auto; 
+font-family: 'Arial', sans-serif; 
+} 
+.admin-dashboard p { 
+font-size: 28px; 
+font-weight: bold; 
+margin-bottom: 20px; 
+color: #34495e; /* Dark blue-grey text */ 
+text-align: center; 
+} 
+/* Table Styling */ 
+.admin-dashboard table { 
+width: 100%; 
+border-collapse: collapse; 
+background: white; 
+border-radius: 8px; 
+overflow: hidden; 
+margin-top: 10px; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
+} 
+.admin-dashboard table thead { 
+background-color: #003256; /* Dark blue-grey for header */ 
+color: white; 
+-align: left; 
+} 
+.admin-dashboard table thead th { 
+padding: 12px 16px; 
+-size: 16px; 
+} 
+.admin-dashboard table tbody tr { 
+transition: background-color 0.2s ease; 
+} 
+.admin-dashboard table tbody tr:nth-child(even) { 
+background-color: #f9f9f9; /* Alternate row colors */ 
+} 
+.admin-dashboard table tbody tr:hover { 
+background-color: #eaf2f8; /* Light blue hover effect */ 
+} 
+.admin-dashboard table tbody td { 
+padding: 12px 16px; 
+font-size: 14px; 
+border-bottom: 1px solid #ddd; /* Subtle borders */ 
+} 
+/* Button Styling */ 
+.admin-dashboard .btn { 
+background-color: #d6eaff; /* Light blue button color */ 
+color: #34495e; /* Dark text for contrast */ 
+border: 1px solid #a9d5ff; /* Slight border for depth */ 
+padding: 8px 12px; 
+font-size: 14px; 
+border-radius: 6px; 
+cursor: pointer; 
+transition: all 0.3s ease; 
+margin: 0 8px; /* Add spacing between buttons */ 
+display: inline-flex; 
+align-items: center; 
+gap: 6px; 
+} 
+.admin-dashboard .btn:hover { 
+background-color: #b8d8ff; /* Slightly darker blue on hover */
+transform: translateY(-2px); /* Subtle lift effect */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.admin-dashboard .btn i {
+font-size: 16px;
+}
+ /* Responsive Design */ 
+@media (max-width: 768px) { 
+  .admin-dashboard { 
+  padding: 10px; 
+  margin: 10px; 
+}
+}
+/* Button Styling */ 
+.admin-dashboard .btn { 
+background-color: #d6eaff; /* Light blue button color */ 
+color: #34495e; /* Dark text for contrast */ 
+border: 1px solid #a9d5ff; /* Slight border for depth */ 
+padding: 8px 12px; 
+font-size: 14px; 
+border-radius: 6px; 
+cursor: pointer; 
+transition: all 0.3s ease; 
+margin: 0 15px; /* Add spacing between buttons */ 
+display: inline-flex; 
+align-items: center; 
+width: 40%; 
+align-items: center; /* Center the content vertically */ 
+text-align: center; /* Ensure the text is centered */ 
+justify-content: center; /* Center the content horizontally */  
+} 
